@@ -1,6 +1,6 @@
 $(document).ready(function(){
     $('form').submit(function(e) {
-        e.preventDefault();
+        //e.preventDefault();
         $.ajax({
             type: "POST",
             url: "mailer/smart.php",
